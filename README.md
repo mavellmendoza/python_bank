@@ -61,7 +61,13 @@ The connect_db() function establishes a connection to a MySQL database using mys
 -If both fields are filled, the system checks the users table in the MySQL database for matching credentials.
 -If the login is successful, it opens the main screen, passing the user's username and user_id to display personalized information.
 -If the login fails (invalid credentials), an error message is shown.
+
 3. Main Screen (open_main_screen):
+   The main entry point is the LoginWindow Default login credentials:
+
+Username: admin
+Password: yournewpassword
+
 -After a successful login, the main screen is displayed, showing options for the user to:
 -View account details
 -Apply for a microloan
